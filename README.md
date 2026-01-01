@@ -74,9 +74,9 @@ Monthly carbon emission (kg CO₂e)
 
 ---
 
-🧪 Methodology
+## 🧪 Methodology
 
-1️⃣ Data Preprocessing
+### 1️⃣ Data Preprocessing
 
 Missing value imputation (mean/mode)
 
@@ -86,7 +86,7 @@ Outlier handling
 
 Train/validation/test split (80/10/10)
 
-2️⃣ Carbon Emission Prediction
+### 2️⃣ Carbon Emission Prediction
 
 Models evaluated:
 
@@ -104,7 +104,7 @@ R² ≈ 0.97
 
 Low MAE and RMSE
 
-3️⃣ Explainable AI (SHAP)
+### 3️⃣ Explainable AI (SHAP)
 
 Global and local feature importance
 
@@ -118,7 +118,7 @@ Diet type
 
 Electricity consumption
 
-4️⃣ Reinforcement Learning Optimization
+### 4️⃣ Reinforcement Learning Optimization
 
 Algorithm: Deep Q-Network (DQN)
 
@@ -140,7 +140,7 @@ Outcome:
 
 ---
 
-🌐 Streamlit Web Application
+## 🌐 Streamlit Web Application
 
 The Streamlit dashboard allows users to:
 
@@ -154,7 +154,7 @@ Receive personalized emission-reduction recommendations
 
 ---
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python
 
@@ -174,7 +174,7 @@ Pandas, NumPy, Matplotlib
 
 ---
 
-📈 Key Results
+## 📈 Key Results
 
 High-accuracy carbon emission prediction
 
@@ -186,7 +186,7 @@ Practical real-world sustainability application
 
 ---
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 Integration with IoT and smart meters
 
@@ -198,9 +198,10 @@ Real-world deployment and feedback-based learning
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Ushodaya Dasari
+**Ushodaya Dasari**
+GitHub: https://github.com/Ushodaya07  
 M.Tech – Artificial Intelligence & Machine Learning
 (In Collaboration with LTIMindtree)
 Vellore Institute of Technology, Vellore
