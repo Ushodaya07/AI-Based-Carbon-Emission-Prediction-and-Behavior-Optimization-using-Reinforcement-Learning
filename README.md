@@ -32,6 +32,7 @@ DQN Reinforcement Learning Agent
    ↓
 Personalized Emission Reduction Recommendations
 ```
+---
 
 📁 Project Folder Structure
 
@@ -43,6 +44,8 @@ carbon-emission-optimization/
 ├── dqn_carbon_agent_final.zip   # Trained DQN reinforcement learning agent
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
+
+---
 
 📊 Dataset Description
 
@@ -62,7 +65,10 @@ Target Variable:
 
 Monthly carbon emission (kg CO₂e)
 
+---
+
 🧪 Methodology
+
 1️⃣ Data Preprocessing
 
 Missing value imputation (mean/mode)
@@ -125,6 +131,8 @@ Outcome:
 
 ~12–22% emission reduction in simulation
 
+---
+
 🌐 Streamlit Web Application
 
 The Streamlit dashboard allows users to:
@@ -136,6 +144,8 @@ View predicted carbon emissions
 Understand influencing factors via SHAP plots
 
 Receive personalized emission-reduction recommendations
+
+---
 
 🛠️ Technologies Used
 
@@ -155,6 +165,8 @@ Streamlit
 
 Pandas, NumPy, Matplotlib
 
+---
+
 📈 Key Results
 
 High-accuracy carbon emission prediction
@@ -165,6 +177,8 @@ Intelligent, adaptive recommendations using RL
 
 Practical real-world sustainability application
 
+---
+
 🚀 Future Enhancements
 
 Integration with IoT and smart meters
@@ -174,6 +188,8 @@ Federated learning for privacy-preserving training
 Multi-agent reinforcement learning for community-level optimization
 
 Real-world deployment and feedback-based learning
+
+---
 
 👨‍💻 Author
 
