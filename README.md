@@ -200,7 +200,7 @@ Real-world deployment and feedback-based learning
 
 ## 👨‍💻 Author
 
-**Ushodaya Dasari**
+**Ushodaya Royal**
 GitHub: https://github.com/Ushodaya07  
 M.Tech – Artificial Intelligence & Machine Learning
 (In Collaboration with LTIMindtree)
