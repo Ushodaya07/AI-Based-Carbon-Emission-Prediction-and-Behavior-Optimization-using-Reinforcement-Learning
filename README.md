@@ -31,6 +31,7 @@ SHAP Explainability
 DQN Reinforcement Learning Agent
    ↓
 Personalized Emission Reduction Recommendations
+```
 
 📁 Project Folder Structure
 
