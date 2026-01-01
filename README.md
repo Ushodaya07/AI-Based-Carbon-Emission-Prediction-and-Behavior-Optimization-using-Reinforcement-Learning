@@ -1,6 +1,13 @@
 # 🌱 AI-Based Carbon Emission Prediction and Behavior Optimization using Reinforcement Learning
 
-**Tech Stack:** Python · Machine Learning · Reinforcement Learning · Streamlit  
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-brightgreen.svg)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement-Learning-orange.svg)
+![LightGBM](https://img.shields.io/badge/LightGBM-GradientBoosting-green.svg)
+![SHAP](https://img.shields.io/badge/Explainable%20AI-SHAP-purple.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-WebApp-red.svg)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-yellow.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-RL-orange.svg)
 
 An end-to-end AI-driven system that predicts household and individual carbon emissions, explains the driving factors, and recommends personalized lifestyle actions to reduce carbon footprint.
 
