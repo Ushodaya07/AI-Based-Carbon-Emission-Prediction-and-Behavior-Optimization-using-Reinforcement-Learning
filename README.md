@@ -35,7 +35,7 @@ Personalized Emission Reduction Recommendations
 ---
 
 📁 Project Folder Structure
-
+```text
 carbon-emission-optimization/
 │
 ├── Carbon Emission.csv          # Dataset used for training and evaluation
@@ -44,7 +44,7 @@ carbon-emission-optimization/
 ├── dqn_carbon_agent_final.zip   # Trained DQN reinforcement learning agent
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
-
+```
 ---
 
 📊 Dataset Description
