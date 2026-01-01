@@ -1,30 +1,25 @@
-AI-Based Carbon Emission Prediction and Behavior Optimization using Reinforcement Learning
-📌 Project Overview
+# 🌱 AI-Based Carbon Emission Prediction and Behavior Optimization using Reinforcement Learning
 
-This project presents an end-to-end AI-driven framework to predict household/individual carbon emissions and recommend personalized lifestyle changes to reduce emissions.
+**Tech Stack:** Python · Machine Learning · Reinforcement Learning · Streamlit  
 
-The system combines:
+An end-to-end AI-driven system that predicts household and individual carbon emissions, explains the driving factors, and recommends personalized lifestyle actions to reduce carbon footprint.
 
-Supervised Machine Learning for accurate carbon footprint prediction
+---
 
-Explainable AI (XAI) for transparent and interpretable predictions
+## 📌 Project Overview
+This project implements a **carbon emission prediction and optimization pipeline** using Machine Learning, Explainable AI, and Reinforcement Learning.  
+The system not only estimates carbon emissions accurately but also provides **transparent explanations** and **actionable recommendations** for sustainability.
 
-Reinforcement Learning (RL) for adaptive behavior optimization
+### Key Goals
+- Predict monthly carbon emissions based on lifestyle and energy usage  
+- Explain predictions using interpretable AI techniques  
+- Recommend low-disruption behavioral changes  
+- Promote awareness and sustainable decision-making  
 
-A Streamlit web application is used to make the system interactive and user-friendly.
+---
 
-🎯 Objectives
-
-Predict monthly carbon emissions based on lifestyle, energy usage, and mobility data
-
-Explain prediction results using feature-level interpretability
-
-Recommend low-disruption, personalized actions to reduce emissions
-
-Demonstrate how ML + XAI + RL can work together for sustainability
-
-🧠 System Architecture
-
+## 🧠 System Architecture
+```text
 User Input
    ↓
 Data Preprocessing
@@ -37,19 +32,22 @@ DQN Reinforcement Learning Agent
    ↓
 Personalized Emission Reduction Recommendations
 
-##📂 Repository Structure
+📁 Project Folder Structure
 
+carbon-emission-optimization/
+│
 ├── Carbon Emission.csv          # Dataset used for training and evaluation
 ├── train_pipeline.ipynb         # Data preprocessing, model training & evaluation
 ├── app.py                       # Streamlit web application
 ├── dqn_carbon_agent_final.zip   # Trained DQN reinforcement learning agent
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
+
 📊 Dataset Description
 
 Size: ~100,000 anonymized records
 
-Features Include:
+Features include:
 
 Demographics (age group, household size)
 
@@ -68,7 +66,7 @@ Monthly carbon emission (kg CO₂e)
 
 Missing value imputation (mean/mode)
 
-One-hot & ordinal encoding
+One-hot and ordinal encoding
 
 Outlier handling
 
@@ -76,7 +74,13 @@ Train/validation/test split (80/10/10)
 
 2️⃣ Carbon Emission Prediction
 
-Models evaluated: Linear Regression, Random Forest, Gradient Boosting
+Models evaluated:
+
+Linear Regression
+
+Random Forest
+
+Gradient Boosting
 
 Best Model: LightGBM
 
@@ -90,7 +94,7 @@ Low MAE and RMSE
 
 Global and local feature importance
 
-Identifies key emission drivers such as:
+Identifies major emission drivers:
 
 Vehicle usage
 
@@ -104,7 +108,7 @@ Electricity consumption
 
 Algorithm: Deep Q-Network (DQN)
 
-Actions Include:
+Actions include:
 
 Reduce private vehicle usage
 
@@ -122,26 +126,15 @@ Outcome:
 
 🌐 Streamlit Web Application
 
-The Streamlit app allows users to:
+The Streamlit dashboard allows users to:
 
-Enter lifestyle and energy data
+Enter lifestyle and energy usage data
 
 View predicted carbon emissions
 
 Understand influencing factors via SHAP plots
 
-Receive personalized emission-reduction suggestions
-
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/Ushodaya07/AI-Based-Carbon-Emission-Prediction-and-Behavior-Optimization-using-Reinforcement-Learning.git
-cd AI-Based-Carbon-Emission-Prediction-and-Behavior-Optimization-using-Reinforcement-Learning
-
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the Streamlit App
-streamlit run app.py
+Receive personalized emission-reduction recommendations
 
 🛠️ Technologies Used
 
@@ -167,9 +160,9 @@ High-accuracy carbon emission prediction
 
 Transparent and interpretable model decisions
 
-Intelligent, adaptive recommendations via RL
+Intelligent, adaptive recommendations using RL
 
-Practical, real-world sustainability application
+Practical real-world sustainability application
 
 🚀 Future Enhancements
 
@@ -177,13 +170,13 @@ Integration with IoT and smart meters
 
 Federated learning for privacy-preserving training
 
-Multi-agent RL for community-level optimization
+Multi-agent reinforcement learning for community-level optimization
 
-Real-world deployment and user feedback loop
+Real-world deployment and feedback-based learning
 
-👤 Author
+👨‍💻 Author
 
 Ushodaya Dasari
-M.Tech – Artificial Intelligence & Machine Learning (in Collaboration with LTIMindtree)
+M.Tech – Artificial Intelligence & Machine Learning
+(In Collaboration with LTIMindtree)
 Vellore Institute of Technology, Vellore
-
